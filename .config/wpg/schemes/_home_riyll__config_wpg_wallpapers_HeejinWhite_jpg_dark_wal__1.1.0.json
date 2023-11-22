@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/HeejinWhite.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A0505",
+        "foreground": "#e4e8f0",
+        "cursor": "#e4e8f0"
+    },
+    "colors": {
+        "color0": "#0A0505",
+        "color1": "#ABB6D2",
+        "color2": "#D1B8CA",
+        "color3": "#B8C3DC",
+        "color4": "#B9CAEA",
+        "color5": "#D1C6D6",
+        "color6": "#CBD7EE",
+        "color7": "#e4e8f0",
+        "color8": "#9fa2a8",
+        "color9": "#ABB6D2",
+        "color10": "#D1B8CA",
+        "color11": "#B8C3DC",
+        "color12": "#B9CAEA",
+        "color13": "#D1C6D6",
+        "color14": "#CBD7EE",
+        "color15": "#e4e8f0"
+    }
+}

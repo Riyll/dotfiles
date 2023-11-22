@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/HeejinIron.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1c0d0c",
+        "foreground": "#e9e5e3",
+        "cursor": "#e9e5e3"
+    },
+    "colors": {
+        "color0": "#1c0d0c",
+        "color1": "#A2847A",
+        "color2": "#8E7E81",
+        "color3": "#A09190",
+        "color4": "#B5B5B5",
+        "color5": "#C3B9B7",
+        "color6": "#C9C9C8",
+        "color7": "#e9e5e3",
+        "color8": "#a3a09e",
+        "color9": "#A2847A",
+        "color10": "#8E7E81",
+        "color11": "#A09190",
+        "color12": "#B5B5B5",
+        "color13": "#C3B9B7",
+        "color14": "#C9C9C8",
+        "color15": "#e9e5e3"
+    }
+}

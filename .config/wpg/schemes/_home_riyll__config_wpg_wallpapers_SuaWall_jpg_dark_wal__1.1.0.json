@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/SuaWall.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E0C13",
+        "foreground": "#cabdb1",
+        "cursor": "#cabdb1"
+    },
+    "colors": {
+        "color0": "#0E0C13",
+        "color1": "#594641",
+        "color2": "#504A4D",
+        "color3": "#6B5E5B",
+        "color4": "#A35254",
+        "color5": "#966E57",
+        "color6": "#828176",
+        "color7": "#cabdb1",
+        "color8": "#8d847b",
+        "color9": "#594641",
+        "color10": "#504A4D",
+        "color11": "#6B5E5B",
+        "color12": "#A35254",
+        "color13": "#966E57",
+        "color14": "#828176",
+        "color15": "#cabdb1"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/Downloads/Wallpapers/Heejin.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#12130c",
+        "foreground": "#dbd8d4",
+        "cursor": "#dbd8d4"
+    },
+    "colors": {
+        "color0": "#12130c",
+        "color1": "#8F7051",
+        "color2": "#887C7D",
+        "color3": "#A08C6A",
+        "color4": "#CA9E60",
+        "color5": "#ACA495",
+        "color6": "#CBADA1",
+        "color7": "#dbd8d4",
+        "color8": "#999794",
+        "color9": "#8F7051",
+        "color10": "#887C7D",
+        "color11": "#A08C6A",
+        "color12": "#CA9E60",
+        "color13": "#ACA495",
+        "color14": "#CBADA1",
+        "color15": "#dbd8d4"
+    }
+}

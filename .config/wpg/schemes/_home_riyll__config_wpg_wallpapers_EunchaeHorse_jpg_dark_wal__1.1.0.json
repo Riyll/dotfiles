@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/EunchaeHorse.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c1012",
+        "foreground": "#e4e6e8",
+        "cursor": "#e4e6e8"
+    },
+    "colors": {
+        "color0": "#0c1012",
+        "color1": "#C3BBBB",
+        "color2": "#CBC3BB",
+        "color3": "#BABDC2",
+        "color4": "#C4BEC1",
+        "color5": "#BEC2C7",
+        "color6": "#CACCD0",
+        "color7": "#e4e6e8",
+        "color8": "#9fa1a2",
+        "color9": "#C3BBBB",
+        "color10": "#CBC3BB",
+        "color11": "#BABDC2",
+        "color12": "#C4BEC1",
+        "color13": "#BEC2C7",
+        "color14": "#CACCD0",
+        "color15": "#e4e6e8"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/wallpaperflare.com_wallpaper.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#053FB4",
+        "foreground": "#99e3f3",
+        "cursor": "#99e3f3"
+    },
+    "colors": {
+        "color0": "#053FB4",
+        "color1": "#239DFB",
+        "color2": "#01A2F7",
+        "color3": "#00ADF8",
+        "color4": "#22A8FE",
+        "color5": "#19C7FA",
+        "color6": "#2DC7F9",
+        "color7": "#99e3f3",
+        "color8": "#6b9eaa",
+        "color9": "#239DFB",
+        "color10": "#01A2F7",
+        "color11": "#00ADF8",
+        "color12": "#22A8FE",
+        "color13": "#19C7FA",
+        "color14": "#2DC7F9",
+        "color15": "#99e3f3"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/KarinaNeon.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#120105",
+        "foreground": "#db97ca",
+        "cursor": "#db97ca"
+    },
+    "colors": {
+        "color0": "#120105",
+        "color1": "#9A2128",
+        "color2": "#89304E",
+        "color3": "#A02A5D",
+        "color4": "#C84446",
+        "color5": "#D1946A",
+        "color6": "#68428E",
+        "color7": "#db97ca",
+        "color8": "#99698d",
+        "color9": "#9A2128",
+        "color10": "#89304E",
+        "color11": "#A02A5D",
+        "color12": "#C84446",
+        "color13": "#D1946A",
+        "color14": "#68428E",
+        "color15": "#db97ca"
+    }
+}

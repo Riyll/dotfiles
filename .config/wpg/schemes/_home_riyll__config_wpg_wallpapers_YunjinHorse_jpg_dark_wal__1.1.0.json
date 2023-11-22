@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/YunjinHorse.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0D181B",
+        "foreground": "#dfdde0",
+        "cursor": "#dfdde0"
+    },
+    "colors": {
+        "color0": "#0D181B",
+        "color1": "#9A9098",
+        "color2": "#B7AEB5",
+        "color3": "#C2B7BC",
+        "color4": "#BDB9C2",
+        "color5": "#C3BCC3",
+        "color6": "#C0C1C9",
+        "color7": "#dfdde0",
+        "color8": "#9c9a9c",
+        "color9": "#9A9098",
+        "color10": "#B7AEB5",
+        "color11": "#C2B7BC",
+        "color12": "#BDB9C2",
+        "color13": "#C3BCC3",
+        "color14": "#C0C1C9",
+        "color15": "#dfdde0"
+    }
+}

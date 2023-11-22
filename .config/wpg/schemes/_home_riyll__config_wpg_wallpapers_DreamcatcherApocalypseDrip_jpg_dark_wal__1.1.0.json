@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/DreamcatcherApocalypseDrip.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090403",
+        "foreground": "#c8ad9e",
+        "cursor": "#c8ad9e"
+    },
+    "colors": {
+        "color0": "#090403",
+        "color1": "#4E3628",
+        "color2": "#5C4233",
+        "color3": "#6D4935",
+        "color4": "#765744",
+        "color5": "#854120",
+        "color6": "#8D5230",
+        "color7": "#c8ad9e",
+        "color8": "#8c796e",
+        "color9": "#4E3628",
+        "color10": "#5C4233",
+        "color11": "#6D4935",
+        "color12": "#765744",
+        "color13": "#854120",
+        "color14": "#8D5230",
+        "color15": "#c8ad9e"
+    }
+}

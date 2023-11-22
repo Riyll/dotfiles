@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/DreamcatcherApocalypseSuits.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0B0604",
+        "foreground": "#e9c1a6",
+        "cursor": "#e9c1a6"
+    },
+    "colors": {
+        "color0": "#0B0604",
+        "color1": "#725749",
+        "color2": "#8E3110",
+        "color3": "#95562A",
+        "color4": "#A56948",
+        "color5": "#D46940",
+        "color6": "#C48855",
+        "color7": "#e9c1a6",
+        "color8": "#a38774",
+        "color9": "#725749",
+        "color10": "#8E3110",
+        "color11": "#95562A",
+        "color12": "#A56948",
+        "color13": "#D46940",
+        "color14": "#C48855",
+        "color15": "#e9c1a6"
+    }
+}

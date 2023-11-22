@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/KazuhaHorse.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0B1213",
+        "foreground": "#d6d6d6",
+        "cursor": "#d6d6d6"
+    },
+    "colors": {
+        "color0": "#0B1213",
+        "color1": "#807F80",
+        "color2": "#7B8592",
+        "color3": "#959291",
+        "color4": "#A29D9B",
+        "color5": "#9F9FA1",
+        "color6": "#AFAEAE",
+        "color7": "#d6d6d6",
+        "color8": "#959595",
+        "color9": "#807F80",
+        "color10": "#7B8592",
+        "color11": "#959291",
+        "color12": "#A29D9B",
+        "color13": "#9F9FA1",
+        "color14": "#AFAEAE",
+        "color15": "#d6d6d6"
+    }
+}

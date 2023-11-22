@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/ChaewonHorse.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090E12",
+        "foreground": "#e1dbdb",
+        "cursor": "#e1dbdb"
+    },
+    "colors": {
+        "color0": "#090E12",
+        "color1": "#A89594",
+        "color2": "#AA9694",
+        "color3": "#BAA8A9",
+        "color4": "#C4AB97",
+        "color5": "#C6B5B2",
+        "color6": "#C9BDC2",
+        "color7": "#e1dbdb",
+        "color8": "#9d9999",
+        "color9": "#A89594",
+        "color10": "#AA9694",
+        "color11": "#BAA8A9",
+        "color12": "#C4AB97",
+        "color13": "#C6B5B2",
+        "color14": "#C9BDC2",
+        "color15": "#e1dbdb"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/SunsetNeon.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#080516",
+        "foreground": "#efcbda",
+        "cursor": "#efcbda"
+    },
+    "colors": {
+        "color0": "#080516",
+        "color1": "#635A94",
+        "color2": "#95689F",
+        "color3": "#E86695",
+        "color4": "#7E84B3",
+        "color5": "#9C86B9",
+        "color6": "#AE93C8",
+        "color7": "#efcbda",
+        "color8": "#a78e98",
+        "color9": "#635A94",
+        "color10": "#95689F",
+        "color11": "#E86695",
+        "color12": "#7E84B3",
+        "color13": "#9C86B9",
+        "color14": "#AE93C8",
+        "color15": "#efcbda"
+    }
+}

@@ -1,0 +1,399 @@
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/polybar/polybar
+;
+;   The README contains a lot of information
+;
+;==========================================================
+
+[colors]
+
+;background = "#00${xrdb:color0}"
+;background = ${xrdb:color1:#222}
+background = ${xrdb:color0:#000000}
+;background = ${env:color0_alpha}
+foreground = ${xrdb:color7:#ff5555}
+
+;  _                    
+; | |__   __ _ _ __ ___ 
+; | '_ \ / _` | '__/ __|
+; | |_) | (_| | |  \__ \
+; |_.__/ \__,_|_|  |___/
+
+[bar/bar]
+enable-ipc=true
+height = 30
+width = 2048
+offset-x = 256
+offset-y = 10
+radius = 15
+border-size = 0
+border-color = ${colors.foreground}
+
+
+;background = ${colors.background}
+background = ${colors.primary}
+foreground = ${colors.foreground}
+
+line-size = 2
+
+separator = |
+module-margin = 1
+
+padding=2
+font-0="JetBrainsMonoNL Nerd Font:weight=bold;5"
+font-1=Font Awesome 5 Free Solid:size=8;2
+font-2=Font Awesome 5 Free Regular:size=8;2
+font-3=Font Awesome 5 Brands:size=8;2
+font-4=font\-logos:size=10;2
+font-5=IPAGothic:size=11;2
+
+modules-left = xworkspaces 
+; launcher also
+; Spotify (scripts at github.com/dietervanhoof/polybar-spotify-controls)
+;modules-center = previous playpause next spotify
+; Mpd
+modules-center = spotify-prev spotify spotify-next
+modules-right = date wlan powerbutton battery
+
+scroll-up = bspwn-wsnext
+scroll-down = bspwn-wsprev
+
+wm-restack = i3
+override-redirect = true
+
+;                      _       _           
+;  _ __ ___   ___   __| |_   _| | ___  ___ 
+; | '_ ` _ \ / _ \ / _` | | | | |/ _ \/ __|
+; | | | | | | (_) | (_| | |_| | |  __/\__ \
+; |_| |_| |_|\___/ \__,_|\__,_|_|\___||___/
+                                         
+[module/launcher]
+type=custom/text
+content = 
+content-font=5
+content-foreground=${colors.foreground}
+content-padding=3
+click-left=launcher
+;The script above is to be found here : https://github.com/ngynLk/scripts
+
+[module/xworkspaces]
+type = internal/xworkspaces
+
+
+label-active = %name%
+label-active-background = ${colors.background}
+label-active-underline= ${colors.foreground}
+label-active-padding = 1
+
+label-occupied = %name%
+label-occupied-padding = 1
+
+label-urgent = %name%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 1
+
+label-empty = %name%
+label-empty-foreground = ${colors.disabled}
+label-empty-padding = 1
+
+#[module/xwindow]
+#type = internal/xwindow
+#label = %title:0:60:...%
+
+;[module/filesystem]
+;type = internal/fs
+;interval = 25
+
+;mount-0 = /
+
+;label-mounted = %{F#F0C674}%mountpoint%%{F-} %percentage_used%%
+
+;label-unmounted = %mountpoint% not mounted
+;label-unmounted-foreground = ${colors.disabled}
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+format-volume-prefix = "墳 "
+format-volume-prefix-foreground = ${colors.primary}
+format-volume = <label-volume>
+
+label-volume = %percentage%%
+
+label-muted = 婢 MUTED 
+label-muted-foreground = ${colors.disabled}
+
+#[module/xkeyboard]
+#type = internal/xkeyboard
+#blacklist-0 = num lock
+
+#label-layout = %layout%
+#label-layout-foreground = ${colors.primary}
+
+#label-indicator-padding = 2
+#label-indicator-margin = 1
+#label-indicator-foreground = ${colors.background}
+#label-indicator-background = ${colors.secondary}
+
+[module/pulseaudio-control-output]
+type = custom/script
+tail = true
+label-padding = 0
+label-foreground = ${colors.foreground}
+
+# Icons mixed from Font Awesome 5 and Material Icons
+# You can copy-paste your options for each possible action, which is more
+# trouble-free but repetitive, or apply only the relevant ones (for example
+# --node-blacklist is only needed for next-node).
+exec = pulseaudio-control --icons-volume " , " --icon-muted " " --node-nicknames-from "device.description" --node-nickname "alsa_output.pci-0000_00_1b.0.analog-stereo: " --node-nickname "alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo: " listen
+click-right = exec pavucontrol &
+click-left = pulseaudio-control togmute
+click-middle = pulseaudio-control --node-blacklist "alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2" next-node
+scroll-up = pulseaudio-control --volume-max 130 up
+scroll-down = pulseaudio-control --volume-max 130 down
+
+[module/pulseaudio-control-input]
+type = custom/script
+tail = true
+format-underline = ${colors.primary}
+label-padding = 2
+label-foreground = ${colors.primary}
+
+# Use --node-blacklist to remove the unwanted PulseAudio .monitor that are child of sinks
+exec = pulseaudio-control  --node-type input --icons-volume "" --icon-muted "" --node-nickname "alsa_output.pci-0000_0c_00.3.analog-stereo:  Webcam" --node-nickname "alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo: Headphones" --node-blacklist "*.monitor" listen
+click-right = exec pavucontrol &
+click-left = pulseaudio-control --node-type input togmute
+click-middle = pulseaudio-control --node-type input next-node
+scroll-up = pulseaudio-control --node-type input --volume-max 130 up
+scroll-down = pulseaudio-control --node-type input --volume-max 130 down
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " " 
+format-prefix-foreground = ${colors.foreground}
+label = %percentage_used:2%%
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = "﬙ "
+format-prefix-foreground = ${colors.foreground}
+label = %percentage:2%%
+
+[network-base]
+type = internal/network
+interval = 5
+format-connected = <label-connected>
+format-disconnected = <label-disconnected>
+label-disconnected = %{F#F0C674}%ifname%%{F#707880} disconnected
+
+[module/wlan]
+inherit = network-base
+interface-type = wireless
+label-connected = %{A1:nm-connection-editor:} %{A} 
+label-connected-foreground = ${colors.foreground}
+
+#[module/eth]
+#inherit = network-base
+#interface-type = wired
+#label-connected = %{F#F0C674}%ifname%%{F-} %local_ip%
+
+[module/powerbutton]
+type = custom/script
+exec = echo " "
+click-left = poweroff
+
+[module/logoutbutton]
+type = custom/script
+exec = echo "⏼ "
+click-left = i3-msg exit
+
+[module/date]
+type = internal/date
+interval = 1
+
+date =  %H:%M:%S
+date-alt =  %d|%m|%y
+
+label = %date%
+label-foreground = ${colors.foreground}
+
+[module/cava]
+type = custom/script
+tail = true
+exec = $HOME/.config/polybar/cava.sh
+format = <label>
+format-font = 5
+label = %output%
+label-foreground = #01ebea
+
+ [module/battery]
+type = internal/battery
+
+[module/spotify]
+type = custom/script
+tail = true
+interval = 1
+; prefix symbol is shown before the text
+format-prefix = " 󰝚   "
+format = <label>
+exec = ~/.config/polybar/scripts/scroll_spotify_status.sh
+
+[module/spotify-prev]
+type = custom/script
+exec = echo "󰒮"
+format = <label>
+click-left = playerctl previous -p spotify
+
+[module/spotify-play-pause]
+type = custom/ipc
+hook-0 = echo "<playing-symbol>"
+hook-1 = echo "<pause-symbol>"
+initial = 1
+click-left = playerctl play-pause -p spotify
+
+[module/spotify-next]
+type = custom/script
+exec = echo "󰒭"
+format = <label>
+click-left = playerctl next -p spotify
+
+full-at = 100
+low-at = 15
+
+; Use the following command to list batteries and adapters:
+; $ ls -1 /sys/class/power_supply/
+battery = BAT0
+adapter = AC
+
+; Disable polling by setting the interval to 0.
+;
+; Default: 5
+poll-interval = 5
+
+; Available tags:
+;   <label-charging> (default)
+;   <bar-capacity>
+;   <ramp-capacity>
+;   <animation-charging>
+format-charging = <animation-charging>  <label-charging> 
+format-charging-foreground = ${colors.foreground}
+
+; Available tags:
+;   <label-discharging> (default)
+;   <bar-capacity>
+;   <ramp-capacity>
+;   <animation-discharging>
+format-discharging = <animation-discharging>  <label-discharging>
+format-discharging-foreground = ${colors.foreground}
+
+; Available tags:
+;   <label-full> (default)
+;   <bar-capacity>
+;   <ramp-capacity>
+format-full = <animation-charging>  <label-full>
+format-full-foreground = ${colors.foreground}
+
+; Format used when battery level drops to low-at
+; If not defined, format-discharging is used instead.
+; Available tags:
+;   <label-low>
+;   <animation-low>
+;   <bar-capacity>
+;   <ramp-capacity>
+; New in version 3.6.0
+format-low = <animation-discharging>  <label-low>
+format-low-foreground = ${colors.foreground}
+
+; Available tokens:
+;   %percentage% (default) - is set to 100 if full-at is reached
+;   %percentage_raw%
+;   %time%
+;   %consumption% (shows current charge rate in watts)
+label-charging = %percentage%%
+
+; Available tokens:
+;   %percentage% (default) - is set to 100 if full-at is reached
+;   %percentage_raw%
+;   %time%
+;   %consumption% (shows current discharge rate in watts)
+label-discharging = %percentage%%
+
+; Available tokens:
+;   %percentage% (default) - is set to 100 if full-at is reached
+;   %percentage_raw%
+label-full = %percentage%%
+
+; Available tokens:
+;   %percentage% (default) - is set to 100 if full-at is reached
+;   %percentage_raw%
+;   %time%
+;   %consumption% (shows current discharge rate in watts)
+; New in version 3.6.0
+label-low = %percentage%%
+
+; Only applies if <ramp-capacity> is used
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+
+; Only applies if <bar-capacity> is used
+bar-capacity-width = 10
+
+; Only applies if <animation-charging> is used
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+; Framerate in milliseconds
+animation-charging-framerate = 750
+
+; Only applies if <animation-discharging> is used
+animation-discharging-0 = 
+animation-discharging-1 = 
+animation-discharging-2 = 
+animation-discharging-3 = 
+animation-discharging-4 = 
+; Framerate in milliseconds
+animation-discharging-framerate = 500
+
+; Only applies if <animation-low> is used
+; New in version 3.6.0
+animation-low-0 = !
+animation-low-1 = 
+animation-low-framerate = 200
+
+[settings]
+screenchange-reload = true
+pseudo-transparency = true
+
+compositing-background = screen
+;[settings]
+;screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+;pseudo-transparency = true
+
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+; vim:ft=dosini
+                      

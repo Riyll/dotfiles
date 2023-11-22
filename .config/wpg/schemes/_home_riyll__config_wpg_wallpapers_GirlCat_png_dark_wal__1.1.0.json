@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/GirlCat.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0a0d",
+        "foreground": "#dcad86",
+        "cursor": "#dcad86"
+    },
+    "colors": {
+        "color0": "#0a0a0d",
+        "color1": "#714520",
+        "color2": "#393D45",
+        "color3": "#675746",
+        "color4": "#65584A",
+        "color5": "#9F571C",
+        "color6": "#89593E",
+        "color7": "#dcad86",
+        "color8": "#9a795d",
+        "color9": "#714520",
+        "color10": "#393D45",
+        "color11": "#675746",
+        "color12": "#65584A",
+        "color13": "#9F571C",
+        "color14": "#89593E",
+        "color15": "#dcad86"
+    }
+}

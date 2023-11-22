@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/SunsetWindow.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#07171D",
+        "foreground": "#98bdcb",
+        "cursor": "#98bdcb"
+    },
+    "colors": {
+        "color0": "#07171D",
+        "color1": "#B65F72",
+        "color2": "#056D8D",
+        "color3": "#1C6A8E",
+        "color4": "#617499",
+        "color5": "#98729B",
+        "color6": "#E0779F",
+        "color7": "#98bdcb",
+        "color8": "#6a848e",
+        "color9": "#B65F72",
+        "color10": "#056D8D",
+        "color11": "#1C6A8E",
+        "color12": "#617499",
+        "color13": "#98729B",
+        "color14": "#E0779F",
+        "color15": "#98bdcb"
+    }
+}

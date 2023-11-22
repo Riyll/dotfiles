@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/WinterTrees.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#241b44",
+        "foreground": "#eac7e9",
+        "cursor": "#eac7e9"
+    },
+    "colors": {
+        "color0": "#241b44",
+        "color1": "#D568A7",
+        "color2": "#9A72D0",
+        "color3": "#D16CC3",
+        "color4": "#728AD1",
+        "color5": "#DD91AD",
+        "color6": "#A98DD6",
+        "color7": "#eac7e9",
+        "color8": "#a38ba3",
+        "color9": "#D568A7",
+        "color10": "#9A72D0",
+        "color11": "#D16CC3",
+        "color12": "#728AD1",
+        "color13": "#DD91AD",
+        "color14": "#A98DD6",
+        "color15": "#eac7e9"
+    }
+}

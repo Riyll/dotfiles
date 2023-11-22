@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/reinawashio.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0f0e",
+        "foreground": "#eadcd1",
+        "cursor": "#eadcd1"
+    },
+    "colors": {
+        "color0": "#0a0f0e",
+        "color1": "#6A817F",
+        "color2": "#AD8F73",
+        "color3": "#C89579",
+        "color4": "#778F8E",
+        "color5": "#AEAA9F",
+        "color6": "#CFAE95",
+        "color7": "#eadcd1",
+        "color8": "#a39a92",
+        "color9": "#6A817F",
+        "color10": "#AD8F73",
+        "color11": "#C89579",
+        "color12": "#778F8E",
+        "color13": "#AEAA9F",
+        "color14": "#CFAE95",
+        "color15": "#eadcd1"
+    }
+}

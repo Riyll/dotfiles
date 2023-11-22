@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/JapaneseSettingSunset.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#071319",
+        "foreground": "#a9bcc3",
+        "cursor": "#a9bcc3"
+    },
+    "colors": {
+        "color0": "#071319",
+        "color1": "#583648",
+        "color2": "#145569",
+        "color3": "#5B4F5E",
+        "color4": "#B1535E",
+        "color5": "#3E7489",
+        "color6": "#B47888",
+        "color7": "#a9bcc3",
+        "color8": "#768388",
+        "color9": "#583648",
+        "color10": "#145569",
+        "color11": "#5B4F5E",
+        "color12": "#B1535E",
+        "color13": "#3E7489",
+        "color14": "#B47888",
+        "color15": "#a9bcc3"
+    }
+}

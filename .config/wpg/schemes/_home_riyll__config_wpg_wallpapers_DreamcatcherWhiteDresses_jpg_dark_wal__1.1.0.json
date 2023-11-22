@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/DreamcatcherWhiteDresses.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#181513",
+        "foreground": "#e2dedb",
+        "cursor": "#e2dedb"
+    },
+    "colors": {
+        "color0": "#181513",
+        "color1": "#CE9269",
+        "color2": "#B19E92",
+        "color3": "#CBB4A6",
+        "color4": "#BDC1BB",
+        "color5": "#D4C5B9",
+        "color6": "#E3CABA",
+        "color7": "#e2dedb",
+        "color8": "#9e9b99",
+        "color9": "#CE9269",
+        "color10": "#B19E92",
+        "color11": "#CBB4A6",
+        "color12": "#BDC1BB",
+        "color13": "#D4C5B9",
+        "color14": "#E3CABA",
+        "color15": "#e2dedb"
+    }
+}

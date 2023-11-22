@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/YujuRose.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0E0606",
+        "foreground": "#eadcd1",
+        "cursor": "#eadcd1"
+    },
+    "colors": {
+        "color0": "#0E0606",
+        "color1": "#B25454",
+        "color2": "#CE1237",
+        "color3": "#AE7F78",
+        "color4": "#E95F53",
+        "color5": "#C49071",
+        "color6": "#DAAC95",
+        "color7": "#eadcd1",
+        "color8": "#a39a92",
+        "color9": "#B25454",
+        "color10": "#CE1237",
+        "color11": "#AE7F78",
+        "color12": "#E95F53",
+        "color13": "#C49071",
+        "color14": "#DAAC95",
+        "color15": "#eadcd1"
+    }
+}

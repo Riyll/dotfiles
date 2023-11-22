@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/KarinaCouch.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#151011",
+        "foreground": "#e4dacf",
+        "cursor": "#e4dacf"
+    },
+    "colors": {
+        "color0": "#151011",
+        "color1": "#1179A1",
+        "color2": "#50758D",
+        "color3": "#1988A8",
+        "color4": "#5E94A6",
+        "color5": "#ACA39B",
+        "color6": "#CDB19A",
+        "color7": "#e4dacf",
+        "color8": "#9f9890",
+        "color9": "#1179A1",
+        "color10": "#50758D",
+        "color11": "#1988A8",
+        "color12": "#5E94A6",
+        "color13": "#ACA39B",
+        "color14": "#CDB19A",
+        "color15": "#e4dacf"
+    }
+}

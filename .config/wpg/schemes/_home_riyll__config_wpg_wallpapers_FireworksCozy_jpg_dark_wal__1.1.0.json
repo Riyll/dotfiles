@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/FireworksCozy.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090C18",
+        "foreground": "#c2bedd",
+        "cursor": "#c2bedd"
+    },
+    "colors": {
+        "color0": "#090C18",
+        "color1": "#174692",
+        "color2": "#2C55A2",
+        "color3": "#5662AE",
+        "color4": "#6374C6",
+        "color5": "#936584",
+        "color6": "#9373B3",
+        "color7": "#c2bedd",
+        "color8": "#87859a",
+        "color9": "#174692",
+        "color10": "#2C55A2",
+        "color11": "#5662AE",
+        "color12": "#6374C6",
+        "color13": "#936584",
+        "color14": "#9373B3",
+        "color15": "#c2bedd"
+    }
+}

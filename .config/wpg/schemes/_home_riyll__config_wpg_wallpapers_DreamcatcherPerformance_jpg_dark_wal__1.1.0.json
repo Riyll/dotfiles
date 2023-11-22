@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/DreamcatcherPerformance.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c1021",
+        "foreground": "#e0e3f1",
+        "cursor": "#e0e3f1"
+    },
+    "colors": {
+        "color0": "#0c1021",
+        "color1": "#9C6180",
+        "color2": "#4698DA",
+        "color3": "#6999DF",
+        "color4": "#C3A6BC",
+        "color5": "#98ABE7",
+        "color6": "#B2CAF6",
+        "color7": "#e0e3f1",
+        "color8": "#9c9ea8",
+        "color9": "#9C6180",
+        "color10": "#4698DA",
+        "color11": "#6999DF",
+        "color12": "#C3A6BC",
+        "color13": "#98ABE7",
+        "color14": "#B2CAF6",
+        "color15": "#e0e3f1"
+    }
+}

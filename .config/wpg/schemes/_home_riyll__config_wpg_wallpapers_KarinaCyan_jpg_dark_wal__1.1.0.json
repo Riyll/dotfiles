@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/KarinaCyan.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e1018",
+        "foreground": "#dbebeb",
+        "cursor": "#dbebeb"
+    },
+    "colors": {
+        "color0": "#0e1018",
+        "color1": "#B7C7CB",
+        "color2": "#B0DEF5",
+        "color3": "#BAE3EF",
+        "color4": "#D2D2D0",
+        "color5": "#D0EDD7",
+        "color6": "#DED7E0",
+        "color7": "#dbebeb",
+        "color8": "#99a4a4",
+        "color9": "#B7C7CB",
+        "color10": "#B0DEF5",
+        "color11": "#BAE3EF",
+        "color12": "#D2D2D0",
+        "color13": "#D0EDD7",
+        "color14": "#DED7E0",
+        "color15": "#dbebeb"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/KarinaTrees",
+    "alpha": "100",
+    "special": {
+        "background": "#181846",
+        "foreground": "#e7d1dc",
+        "cursor": "#e7d1dc"
+    },
+    "colors": {
+        "color0": "#181846",
+        "color1": "#2468CF",
+        "color2": "#6A65C6",
+        "color3": "#9E60AD",
+        "color4": "#CF64B3",
+        "color5": "#9775C8",
+        "color6": "#A98CD1",
+        "color7": "#e7d1dc",
+        "color8": "#a1929a",
+        "color9": "#2468CF",
+        "color10": "#6A65C6",
+        "color11": "#9E60AD",
+        "color12": "#CF64B3",
+        "color13": "#9775C8",
+        "color14": "#A98CD1",
+        "color15": "#e7d1dc"
+    }
+}

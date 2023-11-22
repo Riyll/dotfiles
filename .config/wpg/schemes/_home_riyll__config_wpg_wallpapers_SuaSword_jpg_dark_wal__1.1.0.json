@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/SuaSword.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0F0E0D",
+        "foreground": "#cbcbc5",
+        "cursor": "#cbcbc5"
+    },
+    "colors": {
+        "color0": "#0F0E0D",
+        "color1": "#CD6439",
+        "color2": "#A07251",
+        "color3": "#4E8877",
+        "color4": "#B28B66",
+        "color5": "#D59562",
+        "color6": "#5C9D92",
+        "color7": "#cbcbc5",
+        "color8": "#8e8e89",
+        "color9": "#CD6439",
+        "color10": "#A07251",
+        "color11": "#4E8877",
+        "color12": "#B28B66",
+        "color13": "#D59562",
+        "color14": "#5C9D92",
+        "color15": "#cbcbc5"
+    }
+}

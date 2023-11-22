@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/riyll/.config/wpg/wallpapers/KarinaWine.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0D1418",
+        "foreground": "#e4e4e4",
+        "cursor": "#e4e4e4"
+    },
+    "colors": {
+        "color0": "#0D1418",
+        "color1": "#9549B6",
+        "color2": "#7492C0",
+        "color3": "#B5A8B7",
+        "color4": "#AACADD",
+        "color5": "#B4DDF5",
+        "color6": "#BBE1F8",
+        "color7": "#e4e4e4",
+        "color8": "#9f9f9f",
+        "color9": "#9549B6",
+        "color10": "#7492C0",
+        "color11": "#B5A8B7",
+        "color12": "#AACADD",
+        "color13": "#B4DDF5",
+        "color14": "#BBE1F8",
+        "color15": "#e4e4e4"
+    }
+}
